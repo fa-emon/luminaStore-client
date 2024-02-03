@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* {---heading fonts---} */
+.heading-font{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* {---small fonts---} */
+.small-font{
+    font-family: 'Tangerine', cursive;
+}
+
+/* {---for paragraphs---} */
+.paragraph-font{
+    font-family: 'Josefin Sans', sans-serif;
+}
