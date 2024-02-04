@@ -54,8 +54,11 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div>
-                        <Link to={'/'} className="btn btn-ghost  text-xl heading-font uppercase">
-                            <h2 className='tracking-in-expand'><span className='text-[#CBE8EE]'>lumina</span>Store</h2>
+                        <Link to={'/'} className="btn btn-ghost text-xl heading-font uppercase">
+                            <h2 className='neon-light'>
+                                <span className='text-[#CBE8EE]'>lumina</span>
+                                <span className='text-[#FCE4FF]'>Store</span>
+                            </h2>
                         </Link>
                     </div>
                 </div>

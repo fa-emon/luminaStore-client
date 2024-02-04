@@ -1,0 +1,658 @@
+[
+    {
+        "category_id": "1",
+        "image": "https://i.ibb.co/image1.jpg",
+        "category": "popular",
+        "short_description": "Discover the latest trends with our stylish clothing collection. Elevate your look with trendy attire that complements your unique style. Shop now for a fashionable and chic appearance.",
+        "old_price": 15.25,
+        "new_price": 12.99
+    },
+    {
+        "category_id": "2",
+        "image": "https://i.ibb.co/image2.jpg",
+        "category": "popular",
+        "short_description": "Explore our collection of fashionable attire designed to enhance your style. Find trendy outfits that make a statement and keep you on-trend. Grab the latest fashion at amazing prices.",
+        "old_price": 9.49,
+        "new_price": 7.99
+    },
+    {
+        "category_id": "3",
+        "image": "https://i.ibb.co/image3.jpg",
+        "category": "popular",
+        "short_description": "Step into trendsetting fashion with our chic outfits. Express yourself with the latest styles, and make a lasting impression wherever you go. Elevate your wardrobe with our curated selection.",
+        "old_price": 24.75,
+        "new_price": 22.49
+    },
+    {
+        "category_id": "4",
+        "image": "https://i.ibb.co/image4.jpg",
+        "category": "popular",
+        "short_description": "Indulge in comfortable and stylish clothing for everyday wear. Our collection offers a perfect blend of comfort and fashion, ensuring you look your best no matter the occasion.",
+        "old_price": 11.99,
+        "new_price": 9.99
+    },
+    {
+        "category_id": "5",
+        "image": "https://i.ibb.co/image5.jpg",
+        "category": "popular",
+        "short_description": "Chic dresses that enhance your wardrobe and elevate your style. Find the perfect dress for any occasion and make a statement with our curated collection of trendy and elegant dresses.",
+        "old_price": 12.99,
+        "new_price": 10.99
+    },
+    {
+        "category_id": "6",
+        "image": "https://i.ibb.co/image6.jpg",
+        "category": "popular",
+        "short_description": "Complete your look with trendy accessories that add a finishing touch. Our accessories collection includes stylish pieces to complement your outfit and express your unique fashion sense.",
+        "old_price": 19.99,
+        "new_price": 17.49
+    },
+    {
+        "category_id": "7",
+        "image": "https://i.ibb.co/image7.jpg",
+        "category": "popular",
+        "short_description": "Casual wear designed for a laid-back yet stylish appearance. Explore our collection of comfortable and trendy casual outfits suitable for everyday wear. Stay effortlessly chic with our fashion choices.",
+        "old_price": 14.25,
+        "new_price": 12.49
+    },
+    {
+        "category_id": "8",
+        "image": "https://i.ibb.co/image8.jpg",
+        "category": "popular",
+        "short_description": "Dapper suits for a sophisticated and refined look. Our suits collection features timeless pieces that exude elegance and style. Make a statement at any formal occasion with our curated suits.",
+        "old_price": 18.75,
+        "new_price": 16.99
+    },
+    {
+        "category_id": "9",
+        "image": "https://i.ibb.co/image9.jpg",
+        "category": "popular",
+        "short_description": "Step into style with our collection of stylish activewear. Stay comfortable and on-trend during your fitness routine with our curated selection of activewear for every workout.",
+        "old_price": 14.99,
+        "new_price": 12.49
+    },
+    {
+        "category_id": "10",
+        "image": "https://i.ibb.co/image10.jpg",
+        "category": "popular",
+        "short_description": "Trendy denim for a cool and casual look. Our denim collection offers a range of styles to suit your preferences. Elevate your casual style with our curated denim choices.",
+        "old_price": 13.49,
+        "new_price": 11.99
+    },
+    {
+        "category_id": "11",
+        "image": "https://i.ibb.co/image11.jpg",
+        "category": "men",
+        "short_description": "Discover the latest trends in men's fashion with our curated collection. From casual wear to formal attire, find the perfect styles to elevate your wardrobe. Stay on-trend with our fashionable choices.",
+        "old_price": 22.99,
+        "new_price": 19.99
+    },
+    {
+        "category_id": "12",
+        "image": "https://i.ibb.co/image12.jpg",
+        "category": "men",
+        "short_description": "Casual and comfortable clothing for everyday wear. Our men's casual collection offers a variety of stylish options for a laid-back yet polished look. Stay effortlessly cool with our fashion choices.",
+        "old_price": 18.49,
+        "new_price": 15.99
+    },
+    {
+        "category_id": "13",
+        "image": "https://i.ibb.co/image13.jpg",
+        "category": "men",
+        "short_description": "Stay active in style with our men's activewear collection. From gym sessions to outdoor activities, our activewear is designed for comfort and performance. Elevate your fitness routine with our choices.",
+        "old_price": 26.99,
+        "new_price": 24.49
+    },
+    {
+        "category_id": "14",
+        "image": "https://i.ibb.co/image14.jpg",
+        "category": "men",
+        "short_description": "Sleek and stylish suits for a polished and sophisticated look. Our men's suits collection features timeless pieces suitable for formal occasions. Make a lasting impression with our curated suits.",
+        "old_price": 32.75,
+        "new_price": 29.99
+    },
+    {
+        "category_id": "15",
+        "image": "https://i.ibb.co/image15.jpg",
+        "category": "men",
+        "short_description": "Dapper denim choices for a trendy and casual appearance. Our men's denim collection offers a variety of styles to suit your preferences. Elevate your casual style with our curated denim selections.",
+        "old_price": 28.99,
+        "new_price": 26.49
+    },
+    {
+        "category_id": "16",
+        "image": "https://i.ibb.co/image16.jpg",
+        "category": "men",
+        "short_description": "Trendsetting jackets to enhance your outerwear collection. Our men's jackets collection features stylish and functional choices for every season. Stay warm and on-trend with our curated jackets.",
+        "old_price": 38.99,
+        "new_price": 36.49
+    },
+    {
+        "category_id": "17",
+        "image": "https://i.ibb.co/image17.jpg",
+        "category": "men",
+        "short_description": "Elevate your footwear collection with our stylish men's shoes. From casual sneakers to formal dress shoes, find the perfect pair to complement your style. Step out in confidence with our curated footwear.",
+        "old_price": 24.99,
+        "new_price": 22.49
+    },
+    {
+        "category_id": "18",
+        "image": "https://i.ibb.co/image18.jpg",
+        "category": "men",
+        "short_description": "Add a touch of sophistication with our men's accessories. From ties to hats, our accessories collection complements your style. Complete your look with our curated selection of men's accessories.",
+        "old_price": 14.49,
+        "new_price": 12.99
+    },
+    {
+        "category_id": "19",
+        "image": "https://i.ibb.co/image19.jpg",
+        "category": "men",
+        "short_description": "Trendy and comfortable sleepwear for a restful night's sleep. Our men's sleepwear collection offers stylish and cozy options for bedtime. Sleep in style with our curated sleepwear choices.",
+        "old_price": 19.99,
+        "new_price": 17.49
+    },
+    {
+        "category_id": "20",
+        "image": "https://i.ibb.co/image20.jpg",
+        "category": "men",
+        "short_description": "Accessorize your tech with our men's gadget collection. From sleek phone accessories to smartwatches, find the latest tech trends. Stay connected and on-trend with our curated gadget choices.",
+        "old_price": 16.99,
+        "new_price": 14.49
+    },
+    {
+        "category_id": "21",
+        "image": "https://i.ibb.co/image21.jpg",
+        "category": "men",
+        "short_description": "Explore a wide range of men's formal wear for every occasion. From classic suits to tuxedos, our formal wear collection is tailored for sophistication. Elevate your formal style with our curated choices.",
+        "old_price": 42.99,
+        "new_price": 39.99
+    },
+    {
+        "category_id": "22",
+        "image": "https://i.ibb.co/image22.jpg",
+        "category": "men",
+        "short_description": "Stay cozy and stylish with our men's winter essentials. From warm jackets to knitwear, our winter collection keeps you fashionable during the colder months. Brave the cold in style with our choices.",
+        "old_price": 34.99,
+        "new_price": 32.49
+    },
+    {
+        "category_id": "23",
+        "image": "https://i.ibb.co/image23.jpg",
+        "category": "men",
+        "short_description": "Update your casual wardrobe with our men's streetwear collection. From graphic tees to trendy sneakers, our streetwear choices exude urban style. Stand out in the crowd with our curated streetwear.",
+        "old_price": 20.99,
+        "new_price": 18.49
+    },
+    {
+        "category_id": "24",
+        "image": "https://i.ibb.co/image24.jpg",
+        "category": "men",
+        "short_description": "Find the perfect pair of jeans in our men's denim collection. From slim-fit to relaxed styles, our denim choices cater to your preferences. Enhance your casual look with our curated denim options.",
+        "old_price": 30.99,
+        "new_price": 28.49
+    },
+    {
+        "category_id": "25",
+        "image": "https://i.ibb.co/image25.jpg",
+        "category": "men",
+        "short_description": "Complete your look with our men's accessory sets. From tie and pocket square sets to cufflinks, our accessory sets add a polished finish to your outfit. Elevate your style with our curated sets.",
+        "old_price": 17.49,
+        "new_price": 14.99
+    },
+    {
+        "category_id": "26",
+        "image": "https://i.ibb.co/image26.jpg",
+        "category": "men",
+        "short_description": "Stay on-trend with our men's fashion sneakers. From classic white sneakers to bold patterns, our sneaker collection offers versatile choices. Step out in style with our curated sneaker options.",
+        "old_price": 23.49,
+        "new_price": 21.99
+    },
+    {
+        "category_id": "27",
+        "image": "https://i.ibb.co/image27.jpg",
+        "category": "men",
+        "short_description": "Elevate your summer style with our men's swimwear collection. From boardshorts to swim trunks, our swimwear choices keep you stylish by the pool or beach. Dive into fashion with our curated swimwear.",
+        "old_price": 15.99,
+        "new_price": 13.49
+    },
+    {
+        "category_id": "28",
+        "image": "https://i.ibb.co/image28.jpg",
+        "category": "men",
+        "short_description": "Update your work wardrobe with our men's office essentials. From tailored shirts to classic ties, our office wear collection ensures a polished and professional look. Stay sharp with our curated office essentials.",
+        "old_price": 26.49,
+        "new_price": 24.99
+    },
+    {
+        "category_id": "29",
+        "image": "https://i.ibb.co/image29.jpg",
+        "category": "men",
+        "short_description": "Enhance your active lifestyle with our men's sportswear. From running shorts to moisture-wicking tops, our sportswear collection combines style and functionality. Stay active and on-trend with our curated sportswear.",
+        "old_price": 21.99,
+        "new_price": 19.49
+    },
+    {
+        "category_id": "30",
+        "image": "https://i.ibb.co/image30.jpg",
+        "category": "men",
+        "short_description": "Add a touch of luxury with our men's leather accessories. From wallets to belts, our leather collection exudes timeless elegance. Elevate your style with our curated leather accessories.",
+        "old_price": 19.99,
+        "new_price": 17.49
+    },
+    {
+        "category_id": "31",
+        "image": "https://i.ibb.co/image31.jpg",
+        "category": "women",
+        "short_description": "Explore the latest trends in women's fashion with our curated collection. From casual wear to elegant dresses, find the perfect styles to enhance your wardrobe. Stay on-trend with our fashionable choices.",
+        "old_price": 24.99,
+        "new_price": 22.49
+    },
+    {
+        "category_id": "32",
+        "image": "https://i.ibb.co/image32.jpg",
+        "category": "women",
+        "short_description": "Embrace comfort and style with our women's loungewear collection. From cozy pajama sets to stylish jogger sets, our loungewear choices redefine relaxation. Stay chic at home with our curated loungewear.",
+        "old_price": 19.99,
+        "new_price": 17.49
+    },
+    {
+        "category_id": "33",
+        "image": "https://i.ibb.co/image33.jpg",
+        "category": "women",
+        "short_description": "Discover sophisticated dresses for every occasion. Our women's dresses collection features elegant choices for formal events and special occasions. Make a statement with our curated dress selections.",
+        "old_price": 34.99,
+        "new_price": 32.49
+    },
+    {
+        "category_id": "34",
+        "image": "https://i.ibb.co/image34.jpg",
+        "category": "women",
+        "short_description": "Stay active in style with our women's activewear collection. From workout leggings to sports bras, our activewear is designed for comfort and performance. Elevate your fitness routine with our choices.",
+        "old_price": 29.99,
+        "new_price": 27.49
+    },
+    {
+        "category_id": "35",
+        "image": "https://i.ibb.co/image35.jpg",
+        "category": "women",
+        "short_description": "Elevate your outerwear collection with our women's coats and jackets. From timeless trench coats to trendy puffer jackets, our outerwear choices keep you stylish in every season. Stay chic with our curated jackets.",
+        "old_price": 42.99,
+        "new_price": 39.99
+    },
+    {
+        "category_id": "36",
+        "image": "https://i.ibb.co/image36.jpg",
+        "category": "women",
+        "short_description": "Upgrade your wardrobe with our women's denim collection. From skinny jeans to wide-leg styles, our denim choices offer versatile options for every taste. Elevate your casual look with our curated denim selections.",
+        "old_price": 28.99,
+        "new_price": 26.49
+    },
+    {
+        "category_id": "37",
+        "image": "https://i.ibb.co/image37.jpg",
+        "category": "women",
+        "short_description": "Add a touch of elegance with our women's accessories. From statement necklaces to chic scarves, our accessories collection complements your style. Complete your look with our curated accessories.",
+        "old_price": 16.49,
+        "new_price": 14.99
+    },
+    {
+        "category_id": "38",
+        "image": "https://i.ibb.co/image38.jpg",
+        "category": "women",
+        "short_description": "Explore a range of stylish footwear with our women's shoes collection. From trendy heels to comfortable flats, find the perfect pair to step out in style. Walk with confidence in our curated footwear.",
+        "old_price": 22.99,
+        "new_price": 20.49
+    },
+    {
+        "category_id": "39",
+        "image": "https://i.ibb.co/image39.jpg",
+        "category": "women",
+        "short_description": "Stay cozy and stylish with our women's knitwear collection. From sweaters to cardigans, our knitwear choices keep you warm during the colder months. Brave the cold in style with our curated knitwear.",
+        "old_price": 32.99,
+        "new_price": 30.49
+    },
+    {
+        "category_id": "40",
+        "image": "https://i.ibb.co/image40.jpg",
+        "category": "women",
+        "short_description": "Enhance your summer wardrobe with our women's swimwear collection. From flattering swimsuits to stylish cover-ups, our swimwear choices keep you fashionable by the pool or beach. Dive into fashion with our curated swimwear.",
+        "old_price": 18.99,
+        "new_price": 16.49
+    },
+    {
+        "category_id": "41",
+        "image": "https://i.ibb.co/image41.jpg",
+        "category": "women",
+        "short_description": "Add a touch of sophistication with our women's formal wear. From elegant gowns to tailored suits, our formal wear collection is tailored for special occasions. Make a statement with our curated formal wear.",
+        "old_price": 39.99,
+        "new_price": 36.49
+    },
+    {
+        "category_id": "42",
+        "image": "https://i.ibb.co/image42.jpg",
+        "category": "women",
+        "short_description": "Discover trendy and comfortable sleepwear for a restful night's sleep. Our women's sleepwear collection offers stylish and cozy options for bedtime. Sleep in style with our curated sleepwear choices.",
+        "old_price": 21.99,
+        "new_price": 19.49
+    },
+    {
+        "category_id": "43",
+        "image": "https://i.ibb.co/image43.jpg",
+        "category": "women",
+        "short_description": "Update your wardrobe with our women's activewear collection. From workout leggings to sports bras, our activewear is designed for comfort and style. Elevate your fitness routine with our curated activewear.",
+        "old_price": 26.99,
+        "new_price": 24.49
+    },
+    {
+        "category_id": "44",
+        "image": "https://i.ibb.co/image44.jpg",
+        "category": "women",
+        "short_description": "Stay on-trend with our women's trendy accessories. From statement jewelry to fashionable handbags, our trendy accessories collection completes your look. Make a statement with our curated accessories.",
+        "old_price": 14.99,
+        "new_price": 12.49
+    },
+    {
+        "category_id": "45",
+        "image": "https://i.ibb.co/image45.jpg",
+        "category": "women",
+        "short_description": "Elevate your summer style with our women's swimwear collection. From stylish bikinis to comfortable one-pieces, our swimwear choices keep you fashionable by the pool or beach. Dive into fashion with our curated swimwear.",
+        "old_price": 18.99,
+        "new_price": 16.49
+    },
+    {
+        "category_id": "46",
+        "image": "https://i.ibb.co/image46.jpg",
+        "category": "women",
+        "short_description": "Discover fashionable and functional bags in our women's handbag collection. From chic totes to stylish clutches, our handbag choices add the perfect finishing touch to your look. Carry your style with our curated handbags.",
+        "old_price": 29.99,
+        "new_price": 27.49
+    },
+    {
+        "category_id": "47",
+        "image": "https://i.ibb.co/image47.jpg",
+        "category": "women",
+        "short_description": "Update your summer wardrobe with our women's dresses collection. From casual sundresses to elegant evening gowns, our dresses offer a range of styles for every occasion. Stay chic with our curated dress selections.",
+        "old_price": 34.99,
+        "new_price": 32.49
+    },
+    {
+        "category_id": "48",
+        "image": "https://i.ibb.co/image48.jpg",
+        "category": "women",
+        "short_description": "Stay active in style with our women's sportswear collection. From leggings to sports bras, our sportswear combines fashion and function for your active lifestyle. Stay on-trend with our curated sportswear.",
+        "old_price": 26.99,
+        "new_price": 24.49
+    },
+    {
+        "category_id": "49",
+        "image": "https://i.ibb.co/image49.jpg",
+        "category": "women",
+        "short_description": "Enhance your summer wardrobe with our women's swimwear collection. From flattering swimsuits to stylish cover-ups, our swimwear choices keep you fashionable by the pool or beach. Dive into fashion with our curated swimwear.",
+        "old_price": 18.99,
+        "new_price": 16.49
+    },
+    {
+        "category_id": "50",
+        "image": "https://i.ibb.co/image50.jpg",
+        "category": "women",
+        "short_description": "Discover trendy and comfortable sleepwear for a restful night's sleep. Our women's sleepwear collection offers stylish and cozy options for bedtime. Sleep in style with our curated sleepwear choices.",
+        "old_price": 21.99,
+        "new_price": 19.49
+    },
+    {
+        "category_id": "61",
+        "image": "https://i.ibb.co/image61.jpg",
+        "category": "kids",
+        "short_description": "Explore playful and comfortable outfits for your little ones. Our kids' clothing collection offers a mix of cute and trendy styles for every occasion. Dress them in style with our curated kids' fashion.",
+        "old_price": 12.99,
+        "new_price": 10.99
+    },
+    {
+        "category_id": "62",
+        "image": "https://i.ibb.co/image62.jpg",
+        "category": "kids",
+        "short_description": "Discover adorable and cozy sleepwear for your kids. Our kids' sleepwear collection features cute pajama sets and sleep dresses for a good night's sleep. Sleep in comfort with our curated sleepwear choices.",
+        "old_price": 9.99,
+        "new_price": 8.49
+    },
+    {
+        "category_id": "63",
+        "image": "https://i.ibb.co/image63.jpg",
+        "category": "kids",
+        "short_description": "Upgrade your kids' wardrobe with our trendy footwear collection. From playful sneakers to comfortable sandals, our kids' footwear choices keep them stylish and ready for any adventure. Walk with fun in our curated kids' shoes.",
+        "old_price": 15.99,
+        "new_price": 13.49
+    },
+    {
+        "category_id": "64",
+        "image": "https://i.ibb.co/image64.jpg",
+        "category": "kids",
+        "short_description": "Add a touch of whimsy with our kids' accessories collection. From cute hats to playful backpacks, our accessories complete your child's look. Explore the fun side of fashion with our curated kids' accessories.",
+        "old_price": 7.99,
+        "new_price": 6.49
+    },
+    {
+        "category_id": "65",
+        "image": "https://i.ibb.co/image65.jpg",
+        "category": "kids",
+        "short_description": "Stay on-trend with our kids' activewear collection. From sporty hoodies to comfortable leggings, our activewear keeps your little ones active and stylish. Explore the joy of movement with our curated kids' sportswear.",
+        "old_price": 14.99,
+        "new_price": 12.49
+    },
+    {
+        "category_id": "66",
+        "image": "https://i.ibb.co/image66.jpg",
+        "category": "kids",
+        "short_description": "Elevate their special occasions with our kids' formal wear. From charming dresses to smart suits, our formal wear collection makes every moment memorable. Celebrate in style with our curated kids' formal wear.",
+        "old_price": 18.99,
+        "new_price": 16.49
+    },
+    {
+        "category_id": "67",
+        "image": "https://i.ibb.co/image67.jpg",
+        "category": "kids",
+        "short_description": "Make a splash with our kids' swimwear collection. From adorable swimsuits to protective rash guards, our swimwear choices keep them stylish by the pool or beach. Dive into fun with our curated kids' swimwear.",
+        "old_price": 11.99,
+        "new_price": 9.49
+    },
+    {
+        "category_id": "68",
+        "image": "https://i.ibb.co/image68.jpg",
+        "category": "kids",
+        "short_description": "Stay cozy with our kids' winterwear collection. From warm jackets to cute snowsuits, our winterwear keeps them snug in chilly weather. Brave the cold in style with our curated kids' winterwear.",
+        "old_price": 24.99,
+        "new_price": 22.49
+    },
+    {
+        "category_id": "69",
+        "image": "https://i.ibb.co/image69.jpg",
+        "category": "kids",
+        "short_description": "Explore educational and entertaining toys for your kids. Our kids' toy collection features a variety of options to spark creativity and joy. Play and learn with our curated kids' toys.",
+        "old_price": 16.99,
+        "new_price": 14.49
+    },
+    {
+        "category_id": "70",
+        "image": "https://i.ibb.co/image70.jpg",
+        "category": "kids",
+        "short_description": "Upgrade their casual wardrobe with our kids' denim collection. From cute jeans to stylish jackets, our denim choices keep them on-trend. Elevate their everyday style with our curated kids' denim.",
+        "old_price": 19.99,
+        "new_price": 17.49
+    },
+    {
+        "category_id": "71",
+        "image": "https://i.ibb.co/image71.jpg",
+        "category": "kids",
+        "short_description": "Add a touch of magic with our kids' fantasy costumes. From princess dresses to superhero capes, our fantasy costumes collection sparks imagination. Let their dreams come to life with our curated kids' costumes.",
+        "old_price": 13.99,
+        "new_price": 11.49
+    },
+    {
+        "category_id": "72",
+        "image": "https://i.ibb.co/image72.jpg",
+        "category": "kids",
+        "short_description": "Stay stylish with our kids' trendy accessories. From cute hats to playful backpacks, our trendy accessories complete your child's look. Make a statement with our curated kids' accessories.",
+        "old_price": 8.99,
+        "new_price": 7.49
+    },
+    {
+        "category_id": "73",
+        "image": "https://i.ibb.co/image73.jpg",
+        "category": "kids",
+        "short_description": "Discover comfortable and stylish sleepwear for your little ones. Our kids' sleepwear collection offers a range of cute and cozy options for bedtime. Sleep in comfort with our curated kids' sleepwear choices.",
+        "old_price": 10.99,
+        "new_price": 8.99
+    },
+    {
+        "category_id": "74",
+        "image": "https://i.ibb.co/image74.jpg",
+        "category": "kids",
+        "short_description": "Stay active in style with our kids' sportswear collection. From sports jerseys to comfortable sneakers, our sportswear combines fashion and function for active play. Stay on-trend with our curated kids' sportswear.",
+        "old_price": 14.99,
+        "new_price": 12.99
+    },
+    {
+        "category_id": "75",
+        "image": "https://i.ibb.co/image75.jpg",
+        "category": "kids",
+        "short_description": "Upgrade their summer wardrobe with our kids' swimwear collection. From cute swimsuits to protective rash guards, our swimwear choices keep them stylish by the pool or beach. Dive into fun with our curated kids' swimwear.",
+        "old_price": 11.99,
+        "new_price": 9.99
+    },
+    {
+        "category_id": "76",
+        "image": "https://i.ibb.co/image76.jpg",
+        "category": "kids",
+        "short_description": "Discover trendy and comfortable sleepwear for a restful night's sleep. Our kids' sleepwear collection offers stylish and cozy options for bedtime. Sleep in style with our curated sleepwear choices.",
+        "old_price": 13.99,
+        "new_price": 11.99
+    },
+    {
+        "category_id": "77",
+        "image": "https://i.ibb.co/image77.jpg",
+        "category": "kids",
+        "short_description": "Stay on-trend with our kids' trendy accessories. From statement jewelry to fashionable backpacks, our trendy accessories collection completes your child's look. Make a statement with our curated kids' accessories.",
+        "old_price": 7.99,
+        "new_price": 6.99
+    },
+    {
+        "category_id": "78",
+        "image": "https://i.ibb.co/image78.jpg",
+        "category": "kids",
+        "short_description": "Elevate their casual style with our kids' denim collection. From stylish jeans to cute denim jackets, our denim choices keep them on-trend. Upgrade their everyday look with our curated kids' denim.",
+        "old_price": 18.99,
+        "new_price": 16.99
+    },
+    {
+        "category_id": "79",
+        "image": "https://i.ibb.co/image79.jpg",
+        "category": "kids",
+        "short_description": "Add a touch of whimsy with our kids' accessories collection. From cute hats to playful backpacks, our accessories complete your child's look. Explore the fun side of fashion with our curated kids' accessories.",
+        "old_price": 8.99,
+        "new_price": 7.99
+    },
+    {
+        "category_id": "80",
+        "image": "https://i.ibb.co/image80.jpg",
+        "category": "kids",
+        "short_description": "Stay cozy with our kids' winterwear collection. From warm jackets to cute snowsuits, our winterwear keeps them snug in chilly weather. Brave the cold in style with our curated kids' winterwear.",
+        "old_price": 23.99,
+        "new_price": 21.99
+    },
+    {
+        "category_id": "90",
+        "image": "https://i.ibb.co/image90.jpg",
+        "category": "new_collection",
+        "short_description": "Elevate your style with our latest arrivals. Our new_collection features trendy and timeless pieces that make a statement. Stay ahead of fashion with our curated new_collection.",
+        "old_price": 29.99,
+        "new_price": 26.99
+    },
+    {
+        "category_id": "91",
+        "image": "https://i.ibb.co/image91.jpg",
+        "category": "new_collection",
+        "short_description": "Discover the essence of sophistication with our new formal wear collection. From elegant dresses to smart suits, our formal wear adds a touch of glamour to your wardrobe. Celebrate in style with our curated formal wear.",
+        "old_price": 34.99,
+        "new_price": 31.99
+    },
+    {
+        "category_id": "92",
+        "image": "https://i.ibb.co/image92.jpg",
+        "category": "new_collection",
+        "short_description": "Upgrade your casual wardrobe with our new denim collection. From classic jeans to contemporary jackets, our denim choices keep you on-trend. Elevate your everyday look with our curated denim.",
+        "old_price": 26.99,
+        "new_price": 23.99
+    },
+    {
+        "category_id": "93",
+        "image": "https://i.ibb.co/image93.jpg",
+        "category": "new_collection",
+        "short_description": "Stay cozy and chic with our new winterwear collection. From warm coats to stylish scarves, our winterwear keeps you snug in chilly weather. Brave the cold in style with our curated winterwear.",
+        "old_price": 42.99,
+        "new_price": 39.99
+    },
+    {
+        "category_id": "94",
+        "image": "https://i.ibb.co/image94.jpg",
+        "category": "new_collection",
+        "short_description": "Add a pop of color to your wardrobe with our new accessories collection. From vibrant scarves to statement jewelry, our accessories complete your look. Make a statement with our curated accessories.",
+        "old_price": 18.99,
+        "new_price": 16.99
+    },
+    {
+        "category_id": "95",
+        "image": "https://i.ibb.co/image95.jpg",
+        "category": "new_collection",
+        "short_description": "Discover the latest trends in activewear with our new sportswear collection. From performance leggings to breathable tops, our activewear combines style and functionality. Stay on-trend with our curated sportswear.",
+        "old_price": 32.99,
+        "new_price": 29.99
+    },
+    {
+        "category_id": "96",
+        "image": "https://i.ibb.co/image96.jpg",
+        "category": "new_collection",
+        "short_description": "Elevate your sleepwear game with our new_collection of cozy pajamas and sleep dresses. Our sleepwear collection offers comfort with a touch of style. Sleep in style with our curated sleepwear.",
+        "old_price": 21.99,
+        "new_price": 19.99
+    },
+    {
+        "category_id": "97",
+        "image": "https://i.ibb.co/image97.jpg",
+        "category": "new_collection",
+        "short_description": "Make a bold statement with our new_collection of trendy and vibrant streetwear. From graphic tees to stylish sneakers, our streetwear choices keep you ahead of the fashion curve. Stay on-trend with our curated streetwear.",
+        "old_price": 29.99,
+        "new_price": 26.99
+    },
+    {
+        "category_id": "98",
+        "image": "https://i.ibb.co/image98.jpg",
+        "category": "new_collection",
+        "short_description": "Discover the art of casual elegance with our new loungewear collection. From cozy sweaters to relaxed joggers, our loungewear choices offer style and comfort. Relax in style with our curated loungewear.",
+        "old_price": 24.99,
+        "new_price": 21.99
+    },
+    {
+        "category_id": "99",
+        "image": "https://i.ibb.co/image99.jpg",
+        "category": "new_collection",
+        "short_description": "Upgrade your summer wardrobe with our new swimwear collection. From trendy swimsuits to stylish cover-ups, our swimwear choices keep you chic by the pool or beach. Dive into style with our curated swimwear.",
+        "old_price": 26.99,
+        "new_price": 23.99
+    },
+    {
+        "category_id": "100",
+        "image": "https://i.ibb.co/image100.jpg",
+        "category": "new_collection",
+        "short_description": "Explore the latest trends in footwear with our new shoe collection. From classic boots to trendy sneakers, our shoe choices complete your look. Step out in style with our curated footwear.",
+        "old_price": 38.99,
+        "new_price": 35.99
+    },
+    {
+        "category_id": "101",
+        "image": "https://i.ibb.co/image101.jpg",
+        "category": "new_collection",
+        "short_description": "Upgrade your spring wardrobe with our new_collection of floral prints and pastel hues. Our spring collection offers a range of styles to embrace the season. Blossom in style with our curated springwear.",
+        "old_price": 28.99,
+        "new_price": 25.99
+    }
+]
