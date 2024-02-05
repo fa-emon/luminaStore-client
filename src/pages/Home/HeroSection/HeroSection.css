@@ -1,16 +1,41 @@
 @keyframes bounce-top {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    60% {
-      transform: translateY(-15px);
-    }
-  }
 
-  .bounce-top {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.bounce-top {
     -webkit-animation: bounce-top 5s both;
     animation: bounce-top 5s both;
+}
+
+/* {--------------------------------------} */
+
+@keyframes tinRightIn {
+    0% {
+      transform: scale(0) translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1) translateX(0);
+      opacity: 1;
+    }
   }
+  
+  .tinRightIn {
+    animation: tinRightIn 1s ease-in-out;
+  }
+  

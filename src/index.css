@@ -17,3 +17,11 @@
 .paragraph-font{
     font-family: 'Josefin Sans', sans-serif;
 }
+
+/* {---for colors---} */
+.primary-color{
+    color: #FCE4FF;
+}
+.card-color{
+    color: #94D1FF;
+}

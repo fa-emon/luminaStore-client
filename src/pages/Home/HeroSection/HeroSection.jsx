@@ -3,6 +3,7 @@ import { FaArrowCircleRight } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import './HeroSection.css'
 import { useEffect, useState } from 'react';
+import 'animate.css';
 
 const HeroSection = () => {
 
@@ -50,7 +51,7 @@ const HeroSection = () => {
             </div>
 
             <div className="w-1/2 pl-40">
-                <img src="https://i.ibb.co/0yFvRBj/284-2844044-fashion-toys-electrical-items-and-more-girl-with.png" alt="" />
+                <img className='animate__animated animate__fadeInRight' src="https://i.ibb.co/0yFvRBj/284-2844044-fashion-toys-electrical-items-and-more-girl-with.png" alt="" />
             </div>
         </div>
     );
