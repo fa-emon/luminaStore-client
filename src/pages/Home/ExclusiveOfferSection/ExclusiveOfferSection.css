@@ -1,0 +1,12 @@
+@keyframes blink-1 {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink-1 {
+    animation: blink-1 4s infinite both;
+}

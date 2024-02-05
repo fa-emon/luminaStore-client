@@ -1,3 +1,4 @@
+import ExclusiveOfferSection from "../ExclusiveOfferSection/ExclusiveOfferSection";
 import PopularSection from "../PopularSection/PopularSection";
 import HeroSection from "../heroSection/HeroSection";
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <HeroSection></HeroSection>
             <PopularSection></PopularSection>
+            <ExclusiveOfferSection></ExclusiveOfferSection>
         </div>
     );
 };

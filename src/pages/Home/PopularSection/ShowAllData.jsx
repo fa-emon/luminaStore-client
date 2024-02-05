@@ -10,16 +10,16 @@ const ShowAllData = ({ popularCollection }) => {
     }
 
     return (
-        <div className="card bg-[#F3FCE4] shadow-xl">
+        <div className="card bg-[#F3FCE4] shadow-xl mb-20">
             <figure><img className="transform hover:scale-90 transition-transform duration-700 hover:brightness-95" style={{ height: '50vh', objectFit: 'cover', width: '100%' }} src={image} alt="" /></figure>
             <div className="card-body text-black p-4">
                 <p className="heading-font text-sm font-semibold text-[#5f5f5f] mb-2">{short_description}</p>
                 <div className="flex justify-between">
                     <div>
-                        <h2 className="heading-font text-[#313131] text-sm font-semibold">New Price: ${new_price}</h2>
+                        <h2 className="heading-font text-[#313131] text-sm font-semibold">${new_price}</h2>
                     </div>
                     <div>
-                        <p className="heading-font text-[#808080] text-sm font-semibold">Old Price: $<span className="line-through">{old_price}</span></p>
+                        <p className="heading-font text-[#808080] text-sm font-semibold">$<span className="line-through">{old_price}</span></p>
                     </div>
                 </div>
             </div>
