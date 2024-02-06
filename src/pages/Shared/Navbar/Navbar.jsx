@@ -24,9 +24,9 @@ const Navbar = () => {
 
     const navOptions = <>
         <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide" to={'/'}>Home</Link></li>
-        <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide" to={'/menu'}>Men</Link></li>
-        <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide" to={'/blog'}>Women</Link></li>
-        <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide me-20" to={'/gallery'}>Kids</Link></li>
+        <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide" to={'/men'}>Men</Link></li>
+        <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide" to={'/women'}>Women</Link></li>
+        <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide me-20" to={'/kids'}>Kids</Link></li>
         {
             user ?
                 <>
