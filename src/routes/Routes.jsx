@@ -5,6 +5,7 @@ import Login from "../pages/Shared/Login/Login";
 import Register from "../pages/Shared/Register/Register";
 import Men from "../pages/Men/Men/Men";
 import Women from "../pages/Women/Women/Women";
+import Kids from "../pages/Kids/Kids/kids";
 
 export const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
             {
                 path: '/women',
                 element: <Women></Women>
+            },
+            {
+                path: '/kids',
+                element: <Kids></Kids>
             },
             {
                 path: '/login',
