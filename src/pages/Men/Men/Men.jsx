@@ -1,4 +1,4 @@
-import MenAdvertiseBanner from "../MenAdvertiseBanner";
+import MenAdvertiseBanner from "../MenAdvertiseBanner/MenAdvertiseBanner";
 import Products from "../Products/Products";
 
 
