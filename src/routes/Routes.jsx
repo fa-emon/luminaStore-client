@@ -6,6 +6,7 @@ import Register from "../pages/Shared/Register/Register";
 import Men from "../pages/Men/Men/Men";
 import Women from "../pages/Women/Women/Women";
 import Kids from "../pages/Kids/Kids/kids";
+import SpecificDetails from "../pages/Women/SpecificDetails/SpecificDetails";
 
 export const router = createBrowserRouter([
     {
@@ -23,6 +24,13 @@ export const router = createBrowserRouter([
             {
                 path: '/women',
                 element: <Women></Women>
+            },
+            {
+                path: '/clothes/category/:id',
+                loader: async ({ params }) => {
+                    return fetch(`http://localhost:5000/clothes/category/${params.id}`);
+                },
+                element: <SpecificDetails></SpecificDetails>
             },
             {
                 path: '/kids',

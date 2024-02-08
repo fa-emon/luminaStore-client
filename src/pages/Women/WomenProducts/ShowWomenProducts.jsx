@@ -7,7 +7,7 @@ const ShowWomenProducts = ({ womenData }) => {
     const { image, short_description, old_price, new_price } = womenData;
 
     const handleSeeDetails = (id) => {
-        navigate(`/menu/category/${id}`);
+        navigate(`/clothes/category/${id}`);
     }
 
     return (

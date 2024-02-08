@@ -6,7 +6,7 @@ const ShowAllData = ({ popularCollection }) => {
     const { image, short_description, old_price, new_price } = popularCollection;
 
     const handleSeeDetails = (id) => {
-        navigate(`/menu/category/${id}`);
+        navigate(`/clothes/category/${id}`);
     }
 
     return (
