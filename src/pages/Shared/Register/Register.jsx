@@ -25,16 +25,29 @@ const Register = () => {
                 //After user creation, update their profile
                 updateUserProfile(data.name, data.photoURL)
                     .then(() => {
-                        console.log('User Profile Updated Successfully.')
-                        reset();
-                        Swal.fire({
-                            position: 'top-end',
-                            icon: 'success',
-                            title: 'User Profile Updated Successfully.',
-                            showConfirmButton: false,
-                            timer: 1500
+                        const saveUser = { name: data.name, email: data.email }
+
+                        fetch("http://localhost:5000/user", {
+                            method: "POST",
+                            body: JSON.stringify(saveUser),
+                            headers: {
+                                "Content-type": "application/json"
+                            }
                         })
-                        navigate("/");
+                            .then((response) => response.json())
+                            .then((data) => {
+                                if (data.insertedId) {
+                                    reset();
+                                    Swal.fire({
+                                        position: 'top-end',
+                                        icon: 'success',
+                                        title: 'User Profile Updated Successfully.',
+                                        showConfirmButton: false,
+                                        timer: 1500
+                                    })
+                                    navigate('/')
+                                }
+                            });
                     })
                     .catch((error) => {
                         console.error('Error updating user profile:', error);
@@ -46,7 +59,7 @@ const Register = () => {
     }
 
     return (
-        <div className="hero min-h-screen primary-color pt-24 pb-24">
+        <div className="hero min-h-screen pt-24 pb-24">
             <div className="hero-content flex-col lg:flex-row-reverse w-11/12">
                 <div className="lg:w-1/2 heading-font">
                     <div className="text-center lg:text-left">
@@ -117,9 +130,9 @@ const Register = () => {
                             </div>
 
                             <div className="form-control mt-6">
-                                <input className="btn bg-[#C9AB81] hover:bg-black text-white" type="submit" value="Sign Up" />
+                                <input className="btn bg-[#CBE8EE] hover:bg-black text-[#585858] hover:text-white" type="submit" value="Sign Up" />
                             </div>
-                            <p className='text-[#D1A054] font-medium text-xl text-center'><small>Already have an account? <Link to={'/login'}>LOG IN</Link></small></p>
+                            <p className='text-[#585858] font-medium text-xl text-center'><small>Already have an account? <Link to={'/login'}>LOG IN</Link></small></p>
                             <SocialLogin></SocialLogin>
                         </form>
                     </div>

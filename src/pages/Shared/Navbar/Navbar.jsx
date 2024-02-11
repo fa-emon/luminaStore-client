@@ -3,14 +3,17 @@ import { useContext } from "react";
 import { AuthContext } from "../../../providers/AuthProvider";
 import { Link } from "react-router-dom";
 import './Navbar.css'
+import useOrder from '../../../hooks/useOrder';
+import useAdmin from '../../../hooks/useAdmin';
+import { IoCart } from "react-icons/io5";
 
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
     const isUserLoggedIn = !!user;
 
-    // const [order] = useOrder();
-    // const [isAdmin] = useAdmin();
+    const [order] = useOrder();
+    const [isAdmin] = useAdmin();
 
     const handleLogOut = () => {
         logOut()
@@ -27,16 +30,27 @@ const Navbar = () => {
         <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide" to={'/men'}>Men</Link></li>
         <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide" to={'/women'}>Women</Link></li>
         <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide me-20" to={'/kids'}>Kids</Link></li>
+
         {
             user ?
                 <>
-                    <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide" to={''}>Dashboard</Link></li>
-                    <li><Link onClick={handleLogOut} className="heading-font hover:bg-[#fce4ff] hover:text-black tracking-wide ">LogOut</Link></li>
+                    {
+                        user && isAdmin ?
+                            <>
+                                <li><Link className="hover:bg-[#fce4ff] hover:text-black tracking-wide ms-28" to={isAdmin ? '/dashboard/adminHome' : '/dashboard/userHome'}>Dashboard</Link></li>
+                                <li><Link onClick={handleLogOut} className="heading-font hover:bg-[#fce4ff] hover:text-black tracking-wide">LogOut</Link></li>
+                            </>
+                            :
+                            <>
+                                <li><div><Link className="badge bg-[#fce4ff] p-4 text-black border-[#fce4ff] ms-28" to={'/dashboard/myOrder'}><IoCart className="text-lg text-[#0B1315] me-2"></IoCart>+{order.length || 0}</Link></div></li>
+                                <li><Link onClick={handleLogOut} className="heading-font hover:bg-[#fce4ff] hover:text-black tracking-wide">LogOut</Link></li>
+                            </>
+                    }
                 </>
                 :
                 <>
                     <li><Link className="hover:bg-[#fce4ff] hover:text-black ms-40" to={'/login'}>Log In</Link></li>
-                    <li><Link className="hover:bg-[#fce4ff] hover:text-black me-16" to={'/register'}>Sign Up</Link></li>
+                    <li><Link className="hover:bg-[#fce4ff] hover:text-black " to={'/register'}>Sign Up</Link></li>
                 </>
         }
     </>
@@ -69,7 +83,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <div className="navbar-end w-0 tracking-wide">
+                <div className="navbar-end w-[60px] h-[40px] tracking-wide">
                     {isUserLoggedIn ?
                         <>
                             <div className="tooltip tooltip-left all-font" data-tip={user?.displayName}>

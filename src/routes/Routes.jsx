@@ -7,6 +7,13 @@ import Men from "../pages/Men/Men/Men";
 import Women from "../pages/Women/Women/Women";
 import Kids from "../pages/Kids/Kids/kids";
 import SpecificDetails from "../pages/Women/SpecificDetails/SpecificDetails";
+import Dashboard from "../layout/Dashboard";
+import MyOrder from "../pages/Dashboard/MyOrder/MyOrder";
+import AllUsers from "../pages/Dashboard/AllUsers/AllUsers";
+import AdminRoute from "./AdminRoute";
+import AddProduct from "../pages/Dashboard/AddProduct/AddProduct";
+import ManageProducts from "../pages/Dashboard/ManageProducts/ManageProducts";
+import UpdateProduct from "../pages/Dashboard/UpdateProduct/UpdateProduct";
 
 export const router = createBrowserRouter([
     {
@@ -43,6 +50,36 @@ export const router = createBrowserRouter([
             {
                 path: '/register',
                 element: <Register></Register>
+            }
+        ]
+    },
+    {
+        path: 'dashboard',
+        element: <Dashboard></Dashboard>,
+        children: [
+            {
+                path: 'myOrder',
+                element: <MyOrder></MyOrder>
+            },
+            //admin routes
+            {
+                path: 'allusers',
+                element: <AdminRoute><AllUsers></AllUsers></AdminRoute>
+            },
+            {
+                path: 'addProducts',
+                element: <AdminRoute><AddProduct></AddProduct></AdminRoute>
+            },
+            {
+                path: 'manageProducts',
+                element: <AdminRoute><ManageProducts></ManageProducts></AdminRoute>
+            },
+            {
+                path: 'updateProducts/:id',
+                loader: async ({ params }) => {
+                    return fetch(`http://localhost:5000/clothes/category/${params.id}`);
+                },
+                element: <AdminRoute><UpdateProduct></UpdateProduct></AdminRoute>
             }
         ]
     }

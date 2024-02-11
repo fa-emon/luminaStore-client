@@ -30,7 +30,7 @@ const NewCollection = () => {
 
             <div className="mx-auto flex justify-center items-center">
                 {visibleItems < newCollectionData.length && (
-                    <Button onClick={handleSeeMore} className='bg-[#CBE8EE] hover:bg-black text-black hover:text-white rounded px-2 py-4 mb-20 w-3/4' colorScheme='twitter' rightIcon={<FaArrowCircleRight className='heartbeat' />}>
+                    <Button onClick={handleSeeMore} className='bg-[#CBE8EE] hover:bg-black text-black hover:text-white rounded-full px-2 py-4 mb-20 w-[200px]' colorScheme='twitter' rightIcon={<FaArrowCircleRight className='heartbeat' />}>
                         <span className='tracking-wider heading-font font-extrabold'>see more</span>
                     </Button>
                 )}

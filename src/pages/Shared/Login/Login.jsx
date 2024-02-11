@@ -62,7 +62,7 @@ const Login = () => {
 
     return (
         <>
-            <div className="hero min-h-screen primary-color pt-24 pb-24">
+            <div className="hero min-h-screen pt-24 pb-24">
                 <div className="hero-content flex-col lg:flex-row-reverse mx-10">
                     <div className="lg:w-1/2 heading-font">
                         <div className="text-center lg:text-left">
@@ -85,7 +85,7 @@ const Login = () => {
                                     </label>
                                     <input type={show ? 'text' : 'password'} name="password" placeholder="password" className="input input-bordered" required />
                                     <p onClick={() => setShow(!show)}>
-                                        <small>
+                                        <small className="text-[#808080] font-semibold">
                                             {show ? <span>Hide Password</span> : <span>Show Password</span>}
                                         </small>
                                     </p>
@@ -101,7 +101,7 @@ const Login = () => {
                                 <div className="form-control mt-6">
                                     <input disabled={disabled} className="btn btn-primary" type="submit" value="Log in" />
                                 </div>
-                                <p className='text-[#D1A054] font-medium text-xl text-center'><small>New Here? <Link to={'/register'}>Create an account.</Link></small></p>
+                                <p className='text-[#585858] font-medium text-xl text-center'><small>New Here? <Link to={'/register'}>Create an account.</Link></small></p>
                                 <SocialLogin></SocialLogin>
                             </form>
                         </div>

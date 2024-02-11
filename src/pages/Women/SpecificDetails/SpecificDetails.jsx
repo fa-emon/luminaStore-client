@@ -1,19 +1,72 @@
 import { Button } from "@chakra-ui/react";
 import useAuth from "../../../hooks/useAuth";
-import { useLoaderData, useNavigate } from "react-router-dom";
+import { useLoaderData, useLocation, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
+import useOrder from "../../../hooks/useOrder";
 
 
 const SpecificDetails = () => {
     const { user } = useAuth();
+    const location = useLocation();
     const navigate = useNavigate();
+    const [, refetch] = useOrder();
 
     const specificDetails = useLoaderData();
-    const { image, category, old_price, new_price, short_description } = specificDetails;
-    console.log()
+    const { image, category, old_price, new_price, short_description, category_id } = specificDetails;
 
-    // TODO: {eikhane change korte hobe}
+
     const handleOrder = () => {
-        navigate('/order', { state: { specificDetails } });
+        const data = {
+            image,
+            category,
+            old_price,
+            new_price,
+            short_description,
+            category_id,
+            email: user?.email
+        }
+
+        if (user) {
+            fetch('http://localhost:5000/order', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.insertedId) {
+                        Swal.fire({
+                            position: "top-end",
+                            icon: "success",
+                            title: "Your order has been successful",
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                        refetch();
+                        // TODO: navigate er kaj baki
+                        navigate('')
+                    }
+                })
+                .catch(error => {
+                    console.error('Error submitting order:', error);
+                });
+        }
+        else {
+            Swal.fire({
+                title: "Login required for cart access",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Login Now!"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    navigate('/login', { state: { from: location } });
+                }
+            });
+        }
     }
 
     const isButtonVisible = category !== 'new_collection' && category !== 'popular';
