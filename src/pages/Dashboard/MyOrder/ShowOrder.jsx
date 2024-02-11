@@ -4,7 +4,7 @@ import Swal from 'sweetalert2';
 
 const ShowOrder = ({item}) => {
     const [, refetch] = useOrder();
-    const { short_description, image, new_price, _id } = item;
+    const { short_description, quantity, image, new_price, _id } = item;
 
     const handleDelete = (id) => {
         Swal.fire({
@@ -36,7 +36,7 @@ const ShowOrder = ({item}) => {
     }
 
     return (
-        <tr className='text-[#C9AB81]'>
+        <tr className='text-[#202020]'>
             <td>
                 <div className="flex items-center space-x-3">
                     <div className="avatar">
@@ -52,14 +52,14 @@ const ShowOrder = ({item}) => {
             <td className='heading-font'>
                 ${new_price}
             </td>
-            {/* <td className='heading-font'>
-                ${price}// ei khane quantity hobe.
-            </td> */}
+            <td className='heading-font'>
+                {quantity}
+            </td>
             <td className='heading-font'>
                 {/* ${price} // eita total */}
             </td>
             <th>
-                <MdDelete onClick={() => handleDelete(_id)} className='text-xl hover:text-red-600'></MdDelete>
+                <MdDelete onClick={() => handleDelete(_id)} className='text-xl hover:text-red-600 ms-5'></MdDelete>
             </th>
         </tr>
     );

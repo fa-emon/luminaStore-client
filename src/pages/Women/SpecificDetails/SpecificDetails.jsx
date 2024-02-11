@@ -23,8 +23,8 @@ const SpecificDetails = () => {
             new_price,
             short_description,
             category_id,
-            email: user?.email
-        }
+            email: user?.email,
+        };
 
         if (user) {
             fetch('http://localhost:5000/order', {

@@ -35,7 +35,8 @@
     "rippleui": "^1.12.1",
     "sort-by": "^1.2.0",
     "sweetalert2": "^11.10.4",
-    "swiper": "^11.0.6"
+    "swiper": "^11.0.6",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
