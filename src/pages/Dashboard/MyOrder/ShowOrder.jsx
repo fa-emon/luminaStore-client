@@ -2,9 +2,12 @@ import { MdDelete } from 'react-icons/md';
 import useOrder from '../../../hooks/useOrder';
 import Swal from 'sweetalert2';
 
-const ShowOrder = ({item}) => {
+const ShowOrder = ({ item }) => {
     const [, refetch] = useOrder();
     const { short_description, quantity, image, new_price, _id } = item;
+
+    // Calculate the total price for each item
+    const total = (quantity * new_price).toFixed(2);
 
     const handleDelete = (id) => {
         Swal.fire({
@@ -53,10 +56,10 @@ const ShowOrder = ({item}) => {
                 ${new_price}
             </td>
             <td className='heading-font'>
-                {quantity}
+                <span className='ms-7'>{quantity}</span>
             </td>
             <td className='heading-font'>
-                {/* ${price} // eita total */}
+                ${total}
             </td>
             <th>
                 <MdDelete onClick={() => handleDelete(_id)} className='text-xl hover:text-red-600 ms-5'></MdDelete>

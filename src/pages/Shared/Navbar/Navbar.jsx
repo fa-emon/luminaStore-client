@@ -13,6 +13,8 @@ const Navbar = () => {
     const isUserLoggedIn = !!user;
 
     const [order] = useOrder();
+    const totalQuantity = order.reduce((sum, item) => sum + item.quantity, 0);
+
     const [isAdmin] = useAdmin();
 
     const handleLogOut = () => {
@@ -42,7 +44,7 @@ const Navbar = () => {
                             </>
                             :
                             <>
-                                <li><div><Link className="badge bg-[#fce4ff] p-4 text-black border-[#fce4ff] ms-28" to={'/dashboard/myOrder'}><IoCart className="text-lg text-[#0B1315] me-2"></IoCart>+{order.length || 0}</Link></div></li>
+                                <li><div><Link className="badge bg-[#fce4ff] p-4 text-black border-[#fce4ff] ms-28" to={'/dashboard/myOrder'}><IoCart className="text-lg text-[#0B1315] me-2"></IoCart>+{totalQuantity || 0}</Link></div></li>
                                 <li><Link onClick={handleLogOut} className="heading-font hover:bg-[#fce4ff] hover:text-black tracking-wide">LogOut</Link></li>
                             </>
                     }

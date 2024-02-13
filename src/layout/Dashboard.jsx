@@ -16,6 +16,7 @@ import { IoWoman } from "react-icons/io5";
 
 const Dashboard = () => {
     const [order] = useOrder();
+    const totalQuantity = order.reduce((sum, item) => sum + item.quantity, 0);
 
     // TODO: load data from the server to have dynamic isAdmin on data.
     // const isAdmin = true;
@@ -61,7 +62,7 @@ const Dashboard = () => {
                                     <Link><IoWalletSharp className="text-lg" />PAYMENT HISTORY</Link>
                                 </li>
                                 <li className="bg-[#CBE8EE] hover:bg-black text-black hover:text-white rounded-md">
-                                    <Link to={'/dashboard/myOrder'}><FaShoppingCart className="text-lg" />MY ORDER<div className="badge bg-black hover:bg-[#CBE8EE] text-white hover:text-black border-[#CBE8EE]">+{order.length || 0}</div></Link>
+                                    <Link to={'/dashboard/myOrder'}><FaShoppingCart className="text-lg" />MY ORDER<div className="badge bg-black hover:bg-[#CBE8EE] text-white hover:text-black border-[#CBE8EE]">+{totalQuantity || 0}</div></Link>
                                 </li>
                                 <li className="bg-[#CBE8EE] hover:bg-black text-black hover:text-white rounded-md">
                                     <Link><FaSwatchbook className="text-lg" />MY BOOKING HISTORY</Link>

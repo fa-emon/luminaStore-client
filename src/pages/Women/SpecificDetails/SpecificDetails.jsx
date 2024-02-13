@@ -3,6 +3,7 @@ import useAuth from "../../../hooks/useAuth";
 import { useLoaderData, useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import useOrder from "../../../hooks/useOrder";
+import { useState } from "react";
 
 
 const SpecificDetails = () => {
@@ -14,6 +15,8 @@ const SpecificDetails = () => {
     const specificDetails = useLoaderData();
     const { image, category, old_price, new_price, short_description, category_id } = specificDetails;
 
+    const [order, setOrder] = useState([]);
+
 
     const handleOrder = () => {
         const data = {
@@ -24,7 +27,23 @@ const SpecificDetails = () => {
             short_description,
             category_id,
             email: user?.email,
+            quantity: 1,
+            product_id: category_id,
         };
+    
+        const existingItemIndex = order.findIndex(item => item.product_id === data.product_id);
+    
+        if (existingItemIndex !== -1) {
+            // Product already exists in the order, update its quantity
+            setOrder(prevOrder => {
+                const updatedOrder = [...prevOrder];
+                updatedOrder[existingItemIndex].quantity += 1;
+                return updatedOrder;
+            });
+        } else {
+            // Product does not exist in the order, add it
+            setOrder(prevOrder => [...prevOrder, data]);
+        }
 
         if (user) {
             fetch('http://localhost:5000/order', {
