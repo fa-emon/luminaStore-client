@@ -50,15 +50,17 @@ const MyOrder = () => {
                         />
                     </div>
                 </div>
-                <Link to={'/dashboard/payment'}>
+                {totalQuantity > 0 ? <Link to={'/dashboard/payment'}>
                     <button className="btn btn-sm bg-[#CBE8EE] hover:bg-black hover:text-white border-[#808080] tracking-wider">PAY</button>
-                </Link>
+                </Link> :
+                    <button disabled className="btn btn-sm bg-[#CBE8EE] hover:bg-black hover:text-white border-[#808080] tracking-wider">PAY</button>
+                }
             </div>
             <div className="overflow-x-auto text-white mt-6 w-full bg-[] rounded-md">
                 <table className="table heading-font tracking-widest">
                     {/* head */}
                     <thead className="text-[#202020]">
-                        <tr>
+                        <tr className="bg-[#CBE8EE]">
                             <th>IMAGE</th>
                             <th>DETAILS</th>
                             <th>PRICE</th>
