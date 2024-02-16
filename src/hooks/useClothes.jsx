@@ -2,7 +2,7 @@ import { useQuery } from "react-query";
 
 const useClothes = () => {
     const { data: clothes = [], isLoading: loading, refetch } = useQuery(['clothes'], async () => {
-        const res = await fetch(`http://localhost:5000/clothes`);
+        const res = await fetch(`https://lumina-store-server.vercel.app/clothes`);
         return res.json();
     });
 

@@ -20,7 +20,7 @@ const ShowOrder = ({ item }) => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/order/${id}`, {
+                fetch(`https://lumina-store-server.vercel.app/order/${id}`, {
                     method: "DELETE",
                 })
                     .then((response) => response.json())

@@ -39,7 +39,7 @@ export const router = createBrowserRouter([
             {
                 path: '/clothes/category/:id',
                 loader: async ({ params }) => {
-                    return fetch(`http://localhost:5000/clothes/category/${params.id}`);
+                    return fetch(`https://lumina-store-server.vercel.app/clothes/category/${params.id}`);
                 },
                 element: <SpecificDetails></SpecificDetails>
             },
@@ -98,7 +98,7 @@ export const router = createBrowserRouter([
             {
                 path: 'updateProducts/:id',
                 loader: async ({ params }) => {
-                    return fetch(`http://localhost:5000/clothes/category/${params.id}`);
+                    return fetch(`https://lumina-store-server.vercel.app/clothes/category/${params.id}`);
                 },
                 element: <AdminRoute><UpdateProduct></UpdateProduct></AdminRoute>
             }

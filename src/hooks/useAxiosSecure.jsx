@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 //instance ta ke amra hook er baire declare korlam.
 const axiosSecure = axios.create({
-    baseURL: 'http://localhost:5000',
+    baseURL: 'https://lumina-store-server.vercel.app',
 });
 
 const useAxiosSecure = () => {

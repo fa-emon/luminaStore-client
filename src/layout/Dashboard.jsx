@@ -1,7 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import { IoWalletSharp } from "react-icons/io5";
-import { FaSwatchbook } from "react-icons/fa";
 import { IoHome } from "react-icons/io5";
 import { PiFinnTheHumanFill } from "react-icons/pi";
 import { FaUsers } from "react-icons/fa";
@@ -56,16 +55,10 @@ const Dashboard = () => {
                             :
                             <>
                                 <li className="bg-[#CBE8EE] hover:bg-black text-black hover:text-white rounded-md">
-                                    <Link to={'/dashboard/userHome'}><IoHome className="text-lg" />USER HOME</Link>
-                                </li>
-                                <li className="bg-[#CBE8EE] hover:bg-black text-black hover:text-white rounded-md">
-                                    <Link to={'/dashboard/paymentHistory'}><IoWalletSharp className="text-lg" />PAYMENT HISTORY</Link>
-                                </li>
-                                <li className="bg-[#CBE8EE] hover:bg-black text-black hover:text-white rounded-md">
                                     <Link to={'/dashboard/myOrder'}><FaShoppingCart className="text-lg" />MY ORDER<div className="badge bg-black hover:bg-[#CBE8EE] text-white hover:text-black border-[#CBE8EE]">+{totalQuantity || 0}</div></Link>
                                 </li>
                                 <li className="bg-[#CBE8EE] hover:bg-black text-black hover:text-white rounded-md">
-                                    <Link><FaSwatchbook className="text-lg" />MY BOOKING HISTORY</Link>
+                                    <Link to={'/dashboard/paymentHistory'}><IoWalletSharp className="text-lg" />PAYMENT HISTORY</Link>
                                 </li>
                             </>
                     }

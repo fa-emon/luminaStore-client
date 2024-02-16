@@ -19,7 +19,7 @@ const SocialLogin = () => {
 
                 const saveUser = { name: user.displayName, email: user.email }
 
-                fetch("http://localhost:5000/user", {
+                fetch("https://lumina-store-server.vercel.app/user", {
                     method: "POST",
                     body: JSON.stringify(saveUser),
                     headers: {

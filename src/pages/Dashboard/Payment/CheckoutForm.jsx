@@ -115,9 +115,9 @@ const CheckoutForm = ({ order, price, totalQuantity, refetch }) => {
                         style: {
                             base: {
                                 fontSize: '16px',
-                                color: '#C9AB81',
+                                color: '#ffffff',
                                 '::placeholder': {
-                                    color: '#C9AB81',
+                                    color: '#ffffff',
                                 },
                             },
                             invalid: {
@@ -126,14 +126,14 @@ const CheckoutForm = ({ order, price, totalQuantity, refetch }) => {
                         },
                     }}
                 />
-                <button className="text-black font-semibold heading-font uppercase tracking-wider bg-[#C9AB81] btn-sm hover:bg-[#0a0a0a] hover:text-[#C9AB81] rounded-md mt-10" type="submit" disabled={!stripe || !clientSecret || processing}>
+                <button className="text-black font-semibold heading-font uppercase tracking-wider bg-[#CBE8EE] btn-sm hover:bg-[#0a0a0a] hover:text-white rounded-md mt-10" type="submit" disabled={!stripe || !clientSecret || processing}>
                     Pay
                 </button>
             </form>
             {cardError && <p className="text-red-600 mt-4">{cardError}</p>}
             {
                 transactionId && <div className="flex items-center">
-                    <span className="text-[#C9AB81]">Transaction ID: </span>
+                    <span className="text-[#202020]">Transaction ID: </span>
                     <p className="text-green-600 my-6 ms-4">{transactionId}</p>
                 </div>
             }
